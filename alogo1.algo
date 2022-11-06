@@ -1,0 +1,27 @@
+ALGORITHM Phrase
+VAR
+    chaine:STRING;
+    i:INTEGER;
+    Nb_vow:INTEGER :=0;
+    Nb_mots:INTEGER :=0;
+
+BEGIN
+writ("give he string");
+Read(chaine);
+  for i From 1 to chaine.length-1 STEP 1 Do ;
+  IF (chaine[i]<>".") THEN
+    i:=i+1;
+    else 
+    Nb_mots :=Nb_mots+1
+  END_IF
+END_FOR
+for
+for i From 1 to chaine.length-1 STEP 1 Do ;
+IF (chaine[i]=="a" or chaine[i]=="e" orchaine[i]=="u" orchaine[i]=="i" or chaine[i]=="w" or ) THEN
+    Nb_vow := Nb_vow+1;
+    i:=i+1;
+    else
+    i:=i+1;
+END_IF
+
+END
