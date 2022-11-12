@@ -1,0 +1,17 @@
+
+PROCEDURE insertion_Sort(tab[] Array_of integer)
+VAR
+    i,j p :=integer;
+    tab1[]:= Array_of integer;
+BEGIN
+   for i From 1 to tab.length STEP 1 Do
+p:=tab[i];
+i++;
+j:=i-1;
+while (j>=0 && tab1[j] > p)
+tab1[j+1]:=tab[j];
+j=j-1;
+END While
+tab1[j+1]:= p;
+END_FOR
+END

@@ -1,0 +1,27 @@
+ALGORITHM Dot_Scalar()
+VAR
+V1[n1],V2[n] := Array_of integer;
+    i,j:=integer;
+    Sum:integer :=0;
+BEGIN
+  for i From 0 to n1-1 STEP 1 Do
+    for i From 0 to n2-1 STEP 1 Do
+    Sum := V1[i] * V2[j] + Sum ;
+    i++;
+    j++;
+    END_FOR
+   END_FOR 
+write(Sum);
+END
+
+ALGORITHM vectors_orthogonal (VAR Sum :=integer)
+VAR
+   V1[n1],V2[n] := Array_of integer;
+BEGIN
+IF (Sum == 0) THEN
+    write("les deux vecteurs sont orthogonaux");
+else 
+write ("les deux vecteurs ne pas sont orthogonaux");
+
+END_IF
+END
