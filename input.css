@@ -1,0 +1,18 @@
+input{
+    
+    background-color: aqua !important;
+  
+}
+.App {
+    display: flex !important;
+    color: red !important;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 350px;
+    font: 2em sans-serif;
+    margin-left: 10PX;
+    margin-top: 10px;
+    
+}
+#formBasicCheckbox{
+    background-color: antiquewhite !important;
+}   
