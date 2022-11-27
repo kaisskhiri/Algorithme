@@ -1,0 +1,28 @@
+section img{
+    
+background-color: black;
+width: 300px !important;
+height: 300px !important;
+margin-left: 50%;
+
+}
+
+p{
+    max-width: 250px;
+    color: bisque !important;
+   size: 1.5rem;
+   background-color: brown;
+   padding-left: 5%;
+   text-align: justify;
+
+}
+h2
+{
+max-width: 750px;
+background-color: rgb(165, 199, 199);
+color: rgb(53, 51, 190);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 35%;
+
+text-align: center;
+}
